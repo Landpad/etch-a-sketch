@@ -15,15 +15,38 @@
     background-color: #c7b09a;
 }
 
-.controls {
+.control {
     width: 200px;
     height: 600px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    align-items: center;
 }
+  
+  input[type='color'] {
+    -webkit-appearance: none;
+    width: 100px;
+    height: 100px;
+    border: none;
+    background-color: #c7b09a;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px #A57F5B;
+  }
 
-.controls button {
+  input[type='color']:hover {
+    transition: transform 0.05s ease-in-out;
+    transform: translateY(-1px);
+    box-shadow: 6px 6px 5px #A57F5B;
+  }
+  
+  input[type='color']::-webkit-color-swatch {
+    border: none;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px #A57F5B;
+  }
+
+.control button {
     height: 30px;
     width: 160px;
     background-color: #c7b09a;
