@@ -1,0 +1,22 @@
+.container {
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.gridLine {
+    width: 100vw;
+    height: 25vh;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.gridSquare {
+    width: 5.80vw;
+    height: 5.80vh;
+    background-color: green;
+}
