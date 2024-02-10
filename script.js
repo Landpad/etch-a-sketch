@@ -79,16 +79,3 @@ resetGridButton.addEventListener('click', () => {
 });
 
 createGrid('16');
-
-
-
-
-
-
-
-
-
-
-
-
-
