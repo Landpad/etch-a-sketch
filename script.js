@@ -111,6 +111,8 @@ hexColor.addEventListener('input', () => {
 
 eraser.addEventListener('click', () =>{
     color = ERASER_COLOR;
+    penColor.value = color;
+    hexColor.value = color;
 });
 
 gridContainer.addEventListener('mouseover', (event) => {
